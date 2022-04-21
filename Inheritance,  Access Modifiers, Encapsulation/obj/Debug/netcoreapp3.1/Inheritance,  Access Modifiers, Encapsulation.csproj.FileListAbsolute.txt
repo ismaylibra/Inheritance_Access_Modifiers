@@ -1,0 +1,14 @@
+C:\Users\ASUS\Desktop\C# tasks\Inheritance,  Access Modifiers, Encapsulation\Inheritance,  Access Modifiers, Encapsulation\bin\Debug\netcoreapp3.1\Inheritance,  Access Modifiers, Encapsulation.exe
+C:\Users\ASUS\Desktop\C# tasks\Inheritance,  Access Modifiers, Encapsulation\Inheritance,  Access Modifiers, Encapsulation\bin\Debug\netcoreapp3.1\Inheritance,  Access Modifiers, Encapsulation.deps.json
+C:\Users\ASUS\Desktop\C# tasks\Inheritance,  Access Modifiers, Encapsulation\Inheritance,  Access Modifiers, Encapsulation\bin\Debug\netcoreapp3.1\Inheritance,  Access Modifiers, Encapsulation.runtimeconfig.json
+C:\Users\ASUS\Desktop\C# tasks\Inheritance,  Access Modifiers, Encapsulation\Inheritance,  Access Modifiers, Encapsulation\bin\Debug\netcoreapp3.1\Inheritance,  Access Modifiers, Encapsulation.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\C# tasks\Inheritance,  Access Modifiers, Encapsulation\Inheritance,  Access Modifiers, Encapsulation\bin\Debug\netcoreapp3.1\Inheritance,  Access Modifiers, Encapsulation.dll
+C:\Users\ASUS\Desktop\C# tasks\Inheritance,  Access Modifiers, Encapsulation\Inheritance,  Access Modifiers, Encapsulation\bin\Debug\netcoreapp3.1\Inheritance,  Access Modifiers, Encapsulation.pdb
+C:\Users\ASUS\Desktop\C# tasks\Inheritance,  Access Modifiers, Encapsulation\Inheritance,  Access Modifiers, Encapsulation\obj\Debug\netcoreapp3.1\Inheritance,  Access Modifiers, Encapsulation.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\C# tasks\Inheritance,  Access Modifiers, Encapsulation\Inheritance,  Access Modifiers, Encapsulation\obj\Debug\netcoreapp3.1\Inheritance,  Access Modifiers, Encapsulation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\C# tasks\Inheritance,  Access Modifiers, Encapsulation\Inheritance,  Access Modifiers, Encapsulation\obj\Debug\netcoreapp3.1\Inheritance,  Access Modifiers, Encapsulation.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\C# tasks\Inheritance,  Access Modifiers, Encapsulation\Inheritance,  Access Modifiers, Encapsulation\obj\Debug\netcoreapp3.1\Inheritance,  Access Modifiers, Encapsulation.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\C# tasks\Inheritance,  Access Modifiers, Encapsulation\Inheritance,  Access Modifiers, Encapsulation\obj\Debug\netcoreapp3.1\Inheritance,  Access Modifiers, Encapsulation.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\C# tasks\Inheritance,  Access Modifiers, Encapsulation\Inheritance,  Access Modifiers, Encapsulation\obj\Debug\netcoreapp3.1\Inheritance,  Access Modifiers, Encapsulation.dll
+C:\Users\ASUS\Desktop\C# tasks\Inheritance,  Access Modifiers, Encapsulation\Inheritance,  Access Modifiers, Encapsulation\obj\Debug\netcoreapp3.1\Inheritance,  Access Modifiers, Encapsulation.pdb
+C:\Users\ASUS\Desktop\C# tasks\Inheritance,  Access Modifiers, Encapsulation\Inheritance,  Access Modifiers, Encapsulation\obj\Debug\netcoreapp3.1\Inheritance,  Access Modifiers, Encapsulation.genruntimeconfig.cache
