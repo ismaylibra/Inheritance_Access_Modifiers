@@ -9,20 +9,23 @@ namespace Inheritance___Access_Modifiers__Encapsulation
         public string Section;
 
 
-        bool isSuperAdmin;
+        bool isSuperAdmin=false;
         public Admin(string username, string password, bool isSuperAdmin, string section):base(username, password)
            
         {
             Section = section;
-            Console.WriteLine(Section);
+            Console.WriteLine("Section daxil edin: ");
+            section = Console.ReadLine();
+            //Console.WriteLine(Section);
             if (isSuperAdmin)
             {
                 Console.WriteLine("Siz Super Adminsiniz");
-            }  else
+            }
+            else
             {
                 Console.WriteLine("Siz Super Admin deyilsiniz");
             }
-            
+
         }
       
     }
