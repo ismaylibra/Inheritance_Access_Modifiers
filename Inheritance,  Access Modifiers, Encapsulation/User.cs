@@ -14,7 +14,7 @@ namespace Inheritance___Access_Modifiers__Encapsulation
         {
             get
             {
-                return Username;
+                return _uname;
 
             }
             set
@@ -41,13 +41,13 @@ namespace Inheritance___Access_Modifiers__Encapsulation
             set
             {
 
-                if (value.Length > 8)
+                if (Code(value)) 
                 {
                     value = _pword;
                 }
                 else
                 {
-                    Console.WriteLine("Password-u yeniden daxil edin");
+                   
                     Console.WriteLine("Password minimum 8 xarakterden ibaret olmalidir");
                 }
             }
@@ -62,7 +62,31 @@ namespace Inheritance___Access_Modifiers__Encapsulation
             return $"Username: {Username} Password: {Password}";
         }
       
-
+        public bool Code(string pword)
+        {
+            bool isDigit = false;
+            bool isUpper = false;
+            bool isLower = false;
+            if (pword.Length > 8)
+            {
+                foreach (char letter in pword)
+                {
+                    if (char.IsDigit(letter)) {
+                        isDigit = true;
+                    }
+                    else if (char.IsUpper(letter))
+                    {
+                        isUpper = true;
+                    }
+                    else if (char.IsLower(letter))
+                    {
+                        isLower = true;
+                    }
+                }    bool result = isDigit && isUpper && isLower;
+                return result;
+            }
+            return false;
+        }
 
     }
 }
