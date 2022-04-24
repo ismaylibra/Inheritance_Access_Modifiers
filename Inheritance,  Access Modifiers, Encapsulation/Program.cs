@@ -5,55 +5,46 @@ namespace Inheritance___Access_Modifiers__Encapsulation
     class Program
     {
         static void Main(string[] args)
-        { string username;
-            Admin admin = new Admin("ismayil","Ismayil123",true,"programming" );
-
+        { 
+            
+            User user = new User();
+            string username;
 
             do
             {
                 Console.WriteLine("Username-i  daxil edin: ");
                 username = Console.ReadLine();
-                
 
-                
+
+
             } while (username.Length<6);
-            string password;
+            string pword;
+            
             do    
             {
                 Console.WriteLine("Password-u  daxil edin: ");
-                password = Console.ReadLine();
-                Console.WriteLine(admin.Code(password));
-            } while (password.Length<8);
-           
-            Console.WriteLine(admin.FullName());
+                pword = Console.ReadLine();
+                
+            } while (!user.Code(pword));
+            Console.WriteLine("Section daxil edin: ");
+            string section = Console.ReadLine();
+            Console.WriteLine("Siz Super Adminsiniz ?");
+            string  isSuperAdm = Console.ReadLine();
+            bool isSuper = false;
 
-        }
-        public bool Code(string pword)
-        {
-            bool isDigit = false;
-            bool isUpper = false;
-            bool isLower = false;
-            if (pword.Length > 8)
+            if (isSuperAdm.ToLower() == "beli")
             {
-                foreach (char letter in pword)
-                {
-                    if (char.IsDigit(letter))
-                    {
-                        isDigit = true;
-                    }
-                    else if (char.IsUpper(letter))
-                    {
-                        isUpper = true;
-                    }
-                    else if (char.IsLower(letter))
-                    {
-                        isLower = true;
-                    }
-                }
-                bool result = isDigit && isUpper && isLower;
-                return result;
+                isSuper = true;
+
             }
-            return false;
+            else if (isSuperAdm.ToLower() == "xeyr")
+            {
+                isSuper = false;
+            }
+            Admin admin1 = new Admin(username, pword, section, isSuper);
+            Console.WriteLine(admin1.GetInfo());
         }
+
+       
     }
 }

@@ -22,7 +22,7 @@ namespace Inheritance___Access_Modifiers__Encapsulation
 
                 if (value.Length > 6)
                 {
-                    value = _uname;
+                    _uname = value;
                 }
                 else
                 {
@@ -31,6 +31,11 @@ namespace Inheritance___Access_Modifiers__Encapsulation
                 }
 
             }
+        }
+       
+        public User()
+        {
+
         }
         public string Password
         {
@@ -43,7 +48,7 @@ namespace Inheritance___Access_Modifiers__Encapsulation
 
                 if (Code(value)) 
                 {
-                    value = _pword;
+                    _pword = value;
                 }
                 else
                 {
@@ -54,13 +59,11 @@ namespace Inheritance___Access_Modifiers__Encapsulation
         }
         public User(string username, string password)
         {
+            
             Username = username;
             Password = password;
         }
-        public string FullName()
-        {
-            return $"Username: {Username} Password: {Password}";
-        }
+        
       
         public bool Code(string pword)
         {
